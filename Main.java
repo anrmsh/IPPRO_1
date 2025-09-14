@@ -18,6 +18,12 @@ public class Main {
         FindMaxNum findMax7 = new FindMaxNum();
         findMax7.findMaxNum(a,b,c);
 
+        System.out.println("№8 Сгенерировать 5 рандомных чисел");
+        GeneratorRandomNum generator = new GeneratorRandomNum();
+        generator.generateRandomNum();
+
+
+
     }
 
 

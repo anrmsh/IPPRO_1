@@ -12,7 +12,7 @@ public class GeneratorRandomNum {
         }
 
         Arrays.sort(nums);
-        System.out.println("Отсортированный массив:");
+        System.out.println("\nОтсортированный массив:");
         for (int i=0; i<5; i++){
             System.out.print(nums[i]+" ");
         }
