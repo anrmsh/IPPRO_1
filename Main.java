@@ -5,19 +5,18 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("№6 Посчитать сумму от 1 до N");
         System.out.println("Введите N: ");
-        int N = scanner.nextInt();
+        int N = getIntInput(scanner,"Введите N: ");
         SumToN_6 obj = new SumToN_6();
         obj.calculateSum(N);
 
 
         System.out.println("№7 Найти максимальное число из 3 чисел");
-        System.out.println("Введите a: ");
-        int a = scanner.nextInt();
-        System.out.println("Введите b: ");
-        int b = scanner.nextInt();
-        System.out.println("Введите c: ");
-        int c = scanner.nextInt();
+        int a = getIntInput(scanner,"Введите a: ");System.out.println("Введите b: ");
+        int b = getIntInput(scanner,"Введите b: ");
+        int c = getIntInput(scanner,"Введите c: ");
 
+        FindMaxNum findMax7 = new FindMaxNum();
+        findMax7.findMaxNum(a,b,c);
 
     }
 
@@ -34,7 +33,7 @@ public class Main {
                 validInput = true;
             } catch (Exception e) {
                 System.out.println("Ошибка: пожалуйста, введите целое число.");
-                scanner.next(); 
+                scanner.next();
             }
         }
 
