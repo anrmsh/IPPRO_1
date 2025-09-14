@@ -7,7 +7,7 @@ public class FindMaxNum {
         if (a==b && b==c){
             System.out.println("Числа равны");
         }
-        else if (a>b || a>c){
+        else if (a>b && a>c){
             System.out.println("Максимальное число: " + a);
         }
         else if (b>a && b>c){
