@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("№6 Посчитать сумму от 1 до N");
-        int N = getIntInput(scanner,"Введите N: это число ");
+        int N = getIntInput(scanner,"Введите число N: ");
         SumToN_6 obj = new SumToN_6();
         obj.calculateSum(N);
 
