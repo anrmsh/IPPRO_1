@@ -28,6 +28,9 @@ public class Main {
         counter.countVowels(str);
 
 
+        System.out.println("Реализация feturing-3");
+
+
 
     }
 
