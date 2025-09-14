@@ -22,6 +22,12 @@ public class Main {
         GeneratorRandomNum generator = new GeneratorRandomNum();
         generator.generateRandomNum();
 
+        System.out.println("№9 Посчитать количество гласных в строке");
+        System.out.println("Введите строку на английском:");
+        String str = scanner.next();
+        VowelsCounter counter = new VowelsCounter();
+        counter.countVowels(str);
+
 
 
     }
